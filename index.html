@@ -12,13 +12,29 @@
       text-align:center;
       padding:20px;
     }
-    a{
-      color:blue;
-      text-decoration:none;
-    }
-    a:hover{
-      text-decoration:underline
-    }
+   a{
+text-decoration: none; /* enlever le soulignement */
+color:black; /*couleur du lien*/
+display: inline-block; /*afficher les liens a coter*/
+padding:10px 15px;/*espace interieur du lien*/
+
+background-color:purple;/*couleur du fond du boutton*/
+color:orange;/*couleur du texte*/
+border-radius:5px;/*bord arrondis*/
+margin-right:10px;/*espace entre les liens*/
+margin-left:60;
+font-weigh:bold;/*texte en grand*/
+font-family:ariel,sans-serfie;
+}
+a:hover{
+background-color:black;/*changer la couleur de fond au survol*/
+color:green;/*changer la couleur du texte au survol*/
+transition:0.3s;/*animation douce de transition*/
+}
+a:active{
+background-color:red;/*montrer que le lien est actif*/
+color:orange;
+}
   </style>
 </head>
 <body>
